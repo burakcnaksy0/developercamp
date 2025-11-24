@@ -13,5 +13,4 @@ public class ProductWithCategoryDto {
     private String categoryName;
 
 
-
 }

@@ -9,6 +9,9 @@ public class ErrorDataResult<T>  extends DataResult<T> {
         super(data, false);
     }
 
+    public ErrorDataResult(String message,T data) {
+        super(data,false,message);
+    }
     public ErrorDataResult(String message) {
         super(null, false, message);
     }

@@ -4,7 +4,6 @@ import com.burakcanaksoy.developercamp.core.utilities.results.DataResult;
 import com.burakcanaksoy.developercamp.core.utilities.results.Result;
 import com.burakcanaksoy.developercamp.entities.concretes.Product;
 import com.burakcanaksoy.developercamp.entities.dtos.ProductWithCategoryDto;
-
 import java.util.List;
 
 public interface ProductService {
